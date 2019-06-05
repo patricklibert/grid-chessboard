@@ -1,0 +1,186 @@
+
+
+
+
+  #chessboard, .black_square, .white_square {
+	display:block;
+	padding:0px;
+	margin:0px;
+}
+
+#chessboard {
+    display: flex;
+	width:384px;
+	height:384px;
+    border:4px solid #FF0000;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+}
+
+.black_square, .white_square {
+	width:48px;
+	height:48px;
+	float:left;
+}
+
+.black_square {
+	background-color:#2F343F;
+}
+
+.white_square {
+	background-color:#FFFFFF;
+}
+
+#KR8 {
+    background-image: url(black-rook.png);
+    background-size: 48px 48px;
+}
+
+#KN8 {
+    background-image: url(black-knight.png);
+    background-size: 48px 48px;
+}
+
+#KB8 {
+    background-image: url(black-bishop.png);
+    background-size: 48px 48px;
+}
+
+#K8 {
+    background-image: url(black-queen.png);
+    background-size: 48px 48px;
+}
+
+#Q8 {
+    background-image: url(black-king.png);
+    background-size: 48px 48px;
+}
+
+#QB8 {
+    background-image: url(black-bishop.png);
+    background-size: 48px 48px;
+}
+
+#QN8 {
+    background-image: url(black-knight.png);
+    background-size: 48px 48px;
+}
+#QR8 {
+    background-image: url(black-rook.png);
+    background-size: 48px 48px;
+}
+
+#KR7 {
+    background-image: url(black-pawn.png);
+    background-size: 48px 48px;
+}
+#KN7 {
+    background-image: url(black-pawn.png);
+    background-size: 48px 48px;
+}
+#KB7 {
+    background-image: url(black-pawn.png);
+    background-size: 48px 48px;
+}
+#K7 {
+    background-image: url(black-pawn.png);
+    background-size: 48px 48px;
+}
+#Q7 {
+    background-image: url(black-pawn.png);
+    background-size: 48px 48px;
+}
+#QB7 {
+    background-image: url(black-pawn.png);
+    background-size: 48px 48px;
+}
+#QN7 {
+    background-image: url(black-pawn.png);
+    background-size: 48px 48px;
+}
+#QR7 {
+    background-image: url(black-pawn.png);
+    background-size: 48px 48px;
+}
+
+
+
+
+
+
+#KR2 {
+    background-image: url(white-pawn.png);
+    background-size: 48px 48px;
+}
+#KN2 {
+    background-image: url(white-pawn.png);
+    background-size: 48px 48px;
+}
+#KB2 {
+    background-image: url(white-pawn.png);
+    background-size: 48px 48px;
+}
+#K2 {
+    background-image: url(white-pawn.png);
+    background-size: 48px 48px;
+}
+#Q2 {
+    background-image: url(white-pawn.png);
+    background-size: 48px 48px;
+}
+#QB2 {
+    background-image: url(white-pawn.png);
+    background-size: 48px 48px;
+}
+#QN2 {
+    background-image: url(white-pawn.png);
+    background-size: 48px 48px;
+}
+#QR2 {
+    background-image: url(white-pawn.png);
+    background-size: 48px 48px;
+}
+
+
+
+
+
+#KR1 {
+    background-image: url(white-rook.png);
+    background-size: 48px 48px;
+}
+#KN1 {
+    background-image: url(white-knight.png);
+    background-size: 48px 48px;
+}
+#KB1 {
+    background-image: url(white-bishop.png);
+    background-size: 48px 48px;
+}
+#K1 {
+    background-image: url(white-king.png);
+    background-size: 48px 48px;
+}
+#Q1 {
+    background-image: url(white-queen.png);
+    background-size: 48px 48px;
+}
+#QB1 {
+    background-image: url(white-bishop.png);
+    background-size: 48px 48px;
+}
+#QN1 {
+    background-image: url(white-knight.png);
+    background-size: 48px 48px;
+}
+#QR1 {
+    background-image: url(white-rook.png);
+    background-size: 48px 48px;
+}
