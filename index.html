@@ -3,91 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" media="screen" href="index.css">
+    <link rel="stylesheet" media="screen" href="chess.css">
     <title>Chess</title>
 </head>
 <body>
-        <div id="chessboard">
-                <div>
-                    <div class="white_square" id="KR8"></div>
-                    <div class="black_square" id="KN8"></div>
-                    <div class="white_square" id="KB8"></div>
-                    <div class="black_square" id="K8"></div>
-                    <div class="white_square" id="Q8"></div>
-                    <div class="black_square" id="QB8"></div>
-                    <div class="white_square" id="QN8"></div>
-                    <div class="black_square" id="QR8"></div>
-                </div>
-                <div>
-                    <div class="black_square" id="KR7"></div>
-                    <div class="white_square" id="KN7"></div>
-                    <div class="black_square" id="KB7"></div>
-                    <div class="white_square" id="K7"></div>
-                    <div class="black_square" id="Q7"></div>
-                    <div class="white_square" id="QB7"></div>
-                    <div class="black_square" id="QN7"></div>
-                    <div class="white_square" id="QR7"></div>
-                </div>
-                <div>
-                    <div class="white_square" id="KR6"></div>
-                    <div class="black_square" id="KN6"></div>
-                    <div class="white_square" id="KB6"></div>
-                    <div class="black_square" id="K6"></div>
-                    <div class="white_square" id="Q6"></div>
-                    <div class="black_square" id="QB6"></div>
-                    <div class="white_square" id="QN6"></div>
-                    <div class="black_square" id="QR6"></div>
-                </div>
-                <div>
-                    <div class="black_square" id="KR5"></div>
-                    <div class="white_square" id="KN5"></div>
-                    <div class="black_square" id="KB5"></div>
-                    <div class="white_square" id="K5"></div>
-                    <div class="black_square" id="Q5"></div>
-                    <div class="white_square" id="QB5"></div>
-                    <div class="black_square" id="QN5"></div>
-                    <div class="white_square" id="QR5"></div>
-                </div>
-                <div>
-                    <div class="white_square" id="KR4"></div>
-                    <div class="black_square" id="KN4"></div>
-                    <div class="white_square" id="KB4"></div>
-                    <div class="black_square" id="K4"></div>
-                    <div class="white_square" id="Q4"></div>
-                    <div class="black_square" id="QB4"></div>
-                    <div class="white_square" id="QN4"></div>
-                    <div class="black_square" id="QR4"></div>
-                </div>
-                <div>
-                    <div class="black_square" id="KR3"></div>
-                    <div class="white_square" id="KN3"></div>
-                    <div class="black_square" id="KB3"></div>
-                    <div class="white_square" id="K3"></div>
-                    <div class="black_square" id="Q3"></div>
-                    <div class="white_square" id="QB3"></div>
-                    <div class="black_square" id="QN3"></div>
-                    <div class="white_square" id="QR3"></div>
-                </div>
-                <div>
-                    <div class="white_square" id="KR2"></div>
-                    <div class="black_square" id="KN2"></div>
-                    <div class="white_square" id="KB2"></div>
-                    <div class="black_square" id="K2"></div>
-                    <div class="white_square" id="Q2"></div>
-                    <div class="black_square" id="QB2"></div>
-                    <div class="white_square" id="QN2"></div>
-                    <div class="black_square" id="QR2"></div>
-                </div>
-                <div>
-                    <div class="black_square" id="KR1"></div>
-                    <div class="white_square" id="KN1"></div>
-                    <div class="black_square" id="KB1"></div>
-                    <div class="white_square" id="K1"></div>
-                    <div class="black_square" id="Q1"></div>
-                    <div class="white_square" id="QB1"></div>
-                    <div class="black_square" id="QN1"></div>
-                    <div class="white_square" id="QR1"></div>
-                </div>
-            </div>
+    <div class="flex-container">
+      <div class="outside-grid-row">
+        <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div>
+      </div>
+
+      <div class="outside-grid-column">
+        <div>A</div><div>B</div><div>C</div><div>D</div><div>E</div><div>F</div><div>G</div><div>H</div>
+      </div>
+      
+      <div class="grid-container">
+          <div class="black-rook-left"><img class="resize" src="black-rook.png"></div>
+          <div class="black-knight-left"><img class="resize" src="black-knight.png"></div>
+          <div class="black-bishop-left"><img class="resize" src="black-bishop.png"></div>
+          <div class="black-king"><img class="resize" src="black-king.png"></div>
+          <div class="black-queen"><img class="resize" src="black-queen.png"></div>
+          <div class="black-bishop-right"><img class="resize" src="black-bishop.png"></div>
+          <div class="black-knight-right"><img class="resize" src="black-knight.png"></div>
+          <div class="black-rook-right"><img class="resize" src="black-rook.png"></div>
+
+          <div class="black-pawn1"><img class="resize" src="black-pawn.png"></div>
+          <div class="black-pawn2"><img class="resize" src="black-pawn.png"></div>
+          <div class="black-pawn3"><img class="resize" src="black-pawn.png"></div>
+          <div class="black-pawn4"><img class="resize" src="black-pawn.png"></div>
+          <div class="black-pawn5"><img class="resize" src="black-pawn.png"></div>
+          <div class="black-pawn6"><img class="resize" src="black-pawn.png"></div>
+          <div class="black-pawn7"><img class="resize" src="black-pawn.png"></div>
+          <div class="black-pawn8"><img class="resize" src="black-pawn.png"></div>
+          
+
+          <div class="white-rook-left"><img class="resize" src="white-rook.png"></div>
+          <div class="white-knight-left"><img class="resize" src="white-knight.png"></div>
+          <div class="white-bishop-left"><img class="resize" src="white-bishop.png"></div>
+          <div class="white-king"><img class="resize" src="white-king.png"></div>
+          <div class="white-queen"><img class="resize" src="white-queen.png"></div>
+          <div class="white-bishop-right"><img class="resize" src="white-bishop.png"></div>
+          <div class="white-knight-right"><img class="resize" src="white-knight.png"></div>
+          <div class="white-rook-right"><img class="resize" src="white-rook.png"></div>
+
+          <div class="white-pawn1"><img class="resize" src="white-pawn.png"></div>
+          <div class="white-pawn2"><img class="resize" src="white-pawn.png"></div>
+          <div class="white-pawn3"><img class="resize" src="white-pawn.png"></div>
+          <div class="white-pawn4"><img class="resize" src="white-pawn.png"></div>
+          <div class="white-pawn5"><img class="resize" src="white-pawn.png"></div>
+          <div class="white-pawn6"><img class="resize" src="white-pawn.png"></div>
+          <div class="white-pawn7"><img class="resize" src="white-pawn.png"></div>
+          <div class="white-pawn8"><img class="resize" src="white-pawn.png"></div>
+          
+      </div>
+    </div>
+
 </body>
 </html>
